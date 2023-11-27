@@ -1,0 +1,45 @@
+<h1 class="mainHeading"></h1>
+<main class="main">
+  <form method="post" class="form">
+    <label for="question" class="quesLabel">
+      Chat Buddy
+    </label>
+    <input name="question" id="question" placeholder="Enter your question here..." class="inputTxt" required />
+    <button class="offset-3 btn btn-primary btnStyle">
+      Enter
+    </button>
+  </form>
+
+  {{!-- Generated response is shown here --}}
+  <div class="solution">
+    <div>
+      <p class="title"></p>
+      <p class="ans" placeholder="Generated response will appear here...">{{resObj}}</p>
+    </div>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="footSec">
+    <p>Team Open AI</p>
+    <p>-------------------------------------------</p>
+    <div class="subSec">
+      <p>Ansh</p>
+      <p>Harlin</p>
+      <p>Divyanshi</p>
+      <p>Mansi</p>
+    </div>
+  </div>
+
+  <div class="footSec">
+    <p>Contact us</p>
+    <p>Enquiry</p>
+    <p>More products</p>
+  </div>
+
+  <div class="footSec">
+    <img src="/images/face.jpg" class="contactPics1">
+    <img src="/images/insta.jpg" class="contactPics1">
+    <img src="/images/whatsapp.jpg" class="contactPics">
+  </div>
+</footer>
